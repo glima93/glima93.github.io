@@ -9,4 +9,7 @@ redirect_from:
 ---
 
 
-Welcome! I am a PhD Candidate in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics). I am an applied economist with interests in the economics of education and labor economics.
+Welcome! I am a PhD Candidate in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics), in Florence, Italy. I am an applied economist with interests in the economics of education and labor economics.
+
+My supervisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).
+
