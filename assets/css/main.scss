@@ -10,6 +10,10 @@
  *
 */
 
+body {
+  font-size: 12px;
+}
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
