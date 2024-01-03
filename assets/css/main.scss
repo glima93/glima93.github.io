@@ -12,6 +12,8 @@
 
 body {
   font-size: 12px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
