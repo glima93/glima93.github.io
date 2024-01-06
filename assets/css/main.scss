@@ -11,9 +11,15 @@
 */
 
 body {
-  font-size: 12px;
+  font-size: 13px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+h1{
+  font-size: 15px;
+  color: #3d5a80; /* This is a shade of dark blue */
+  text-decoration: underline; /* Adds underline */
 }
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
@@ -45,3 +51,8 @@ body {
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+a[href^="http://"], a[href^="https://"], a[href*="/papers/"] {
+  color: #3c6e71;
+  text-decoration: none;
+}

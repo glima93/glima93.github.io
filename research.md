@@ -10,5 +10,18 @@
   <p> {{ paper.year }}</p>
   <p><strong>Author(s):</strong>  {{ paper.authors | join: ", " }}</p> 
   <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
-  <p><strong>Presented at:</strong> {{ paper.presentations | join: "; " }}
+  <p><strong>Presentations:</strong> {{ paper.presentations | join: "; " }}
+{% endfor %}
+
+<h1>Work in Progress</h1>
+{% for paper in site.data.workinprogress %}
+  <h2>
+    {% if paper.link %}
+      <a href="{{ paper.link }}">{{ paper.title }}</a>
+    {% else %}
+      {{ paper.title }}
+    {% endif %}
+  </h2>
+  <p> {{ paper.year }}</p>
+  <p><strong>Author(s):</strong>  {{ paper.authors | join: ", " }}</p> 
 {% endfor %}
