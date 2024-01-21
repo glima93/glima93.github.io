@@ -12,10 +12,10 @@
   authors:
     - "Gonçalo Lima"
   abstract: "How do positive signals of academic ability change educational choices and future performance? I study the consequences of receiving a higher grade in a national standardized test on students' outcomes. For identification, I exploit the random assignment of graders to anonymized tests in the end of middle school, using administrative data from Portugal. First, I show that there is substantial grade manipulation in this blind grading context, consistent with graders being lenient. I then use bunching methods to identify the plausibly causal effect of leniency on students' choices. I find that low performers who benefit from lenient grading are significantly less likely to repeat the same school grade, and encouraged to enrol in a more demanding high school track. However, I cannot reject that there is no impact on academic achievement in the medium- and long-term. Finally, although graders do not observe test takers characteristics, I show that leniency in grading is selective on characteristics that may be indirectly inferred from the test. In particular, girls are marginally more likely to be bumped up."
-  link: "/assets/papers/grading_leniency.pdf" # Assuming you have a 'papers' folder in your site root
   presentations: 
     - "2024 Lisbon Economics and Statistics of Education (January 2024)"
     - "EUI Microeconometrics Working Group (March 2023)"
+  #link: "/assets/papers/grading_leniency.pdf" # Assuming you have a 'papers' folder in your site root
 
 - title: "No Country for Young Kids? The Effects of School Starting Age throughout Childhood and Beyond"
   year: "2019"
