@@ -15,5 +15,4 @@ My supervisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](
 **E-mail:** goncalo.lima@eui.eu
 
 **Upcoming Conferences:** 
-  - [EUI Migration Working Group](https://www.eui.eu/research-hub?id=the-migration-working-group) (Florence, IT; 15 February)
   - [SOLE 2024](https://www.sole-jole.org/future-meetings) (Portland OR, US; 3 May)
