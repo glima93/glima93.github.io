@@ -7,8 +7,10 @@ main:
     url: /teaching/
 
   - title: "Policy Reports"
-    url: /policy_reports"
-    
+    url: /policy_reports/
+     
+  - title: "Replications"
+    url: /replications/
+
   - title: "CV"
     url: /cv/
-    

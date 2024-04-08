@@ -1,0 +1,20 @@
+- title: "Mass Reproducibility and Replicability: A New Hope"
+  year: "2024"
+  publication: "I4R Discussion Paper Series, No. 107"
+  authors:
+    - "Abel Brodeur et al."
+  abstract: "This study pushes our understanding of research reliability by reproducing and replicating claims from 110 papers in leading economic and political science journals. The analysis involves computational reproducibility checks and robustness assessments. It reveals several patterns. First, we uncover a high rate of fully computationally reproducible results (over 85%). Second, excluding minor issues like missing packages or broken pathways, we uncover coding errors for about 25% of studies, with some studies containing multiple errors. Third, we test the robustness ofthe results to 5,511 re-analyses. We find a robustness reproducibility of about 70%. Robustness reproducibility rates are relatively higher for re-analyses that introduce new data and lower for re-analyses that change the sample or the definition of the dependent variable. Fourth, 52% of re-analysis effect size estimates are smaller than the original published estimates and the average statistical significance of a re-analysis is 77% of the original. Lastly, we rely on six teams of researchers working independently to answer eight additional research questions on the determinants of robustness reproducibility. Most teams find a negative relationship between replicators’ experience and reproducibility, while finding no relationship between reproducibility and the provision of intermediate or even raw data combined with the necessary cleaning codes."
+  link: "https://www.econstor.eu/bitstream/10419/289437/1/I4R-DP107.pdf"
+
+  - title: "The Dynamics and Spillovers of Management Interventions: A Comment on Bianchi and Giorcelli (2022)"
+  year: "2023"
+  publication: "I4R Discussion Paper Series, No. 66"
+  authors:
+    - "Gonçalo Lima"
+    - "Jakob Moeller"
+    - "Marco Schmandt"
+    - "Christian Westheide"
+  abstract: "Bianchi and Giorcelli (2022) study the long-term and spillover effects of a management intervention program on firm performance in the US, between 1940 and 1945. The authors find that the Training Within Industry (TWI) program led to positive effects which lasted for at least 10 years. Firm sales of treated firms increasedd by 5.3% in the first year after implementation, peaking at 21.7% after 8 years, before reducing to 16% gains after a decade. The authors claim that the program generated long-lasting changes in managerial practices. Finally, the program also led to positive spillover effects on the supply chain of treated firms. First, we reproduce the paper’s main findings. Second, we test the robustness of the results to (1) changing the main specification sample and (2) testing other difference-in-differences estimators, using the same data, provided by the authors. We find that the results are robust to these changes. All point estimates in the study remain statistically significant and of similar magnitude. While the paper's finding reproduce and replicate, challenges in reproducing results we encountered lead us to recommend improvements to journals' code policies."
+  link: "https://www.econstor.eu/bitstream/10419/276960/1/I4R-DP066.pdf"
+  link_package: "https://github.com/cwestheide/i4r_dp66_code"
+  link_original: "https://www.journals.uchicago.edu/doi/suppl/10.1086/719277/suppl_file/20200781data.zip"

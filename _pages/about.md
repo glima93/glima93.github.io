@@ -18,4 +18,4 @@ My advisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](htt
 
 **Upcoming Conferences:** 
   - [SOLE 2024](https://www.sole-jole.org/future-meetings) (Portland OR, US; 3 May)
-  - [EALE 2024](https://www.nhh.no/en/calendar/fair/2024/conferences/eale-conference-2024/)(Bergen, Norway; 5 September)
+  - [EALE 2024](https://www.nhh.no/en/calendar/fair/2024/conferences/eale-conference-2024/) (Bergen, Norway; 5 September)
