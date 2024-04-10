@@ -10,12 +10,11 @@ redirect_from:
 
 Welcome! I am a PhD Candidate in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics), in Florence, Italy. I am an applied economist with research interests in the economics of education and labor economics.
 
-I use both experimental and quasi-experimental methods to uncover the causal effects of public policies.
-
 My advisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).
 
 **E-mail:** goncalo.lima[at]eui.eu
 
 **Upcoming Conferences:** 
   - [SOLE 2024](https://www.sole-jole.org/future-meetings) (Portland OR, US; 3 May)
+  - [JEM24](https://demm.unimi.it/index.php/en/unimi-jem24-3rd-junior-economists-meeting) (Milan, Italy; 16 May)
   - [EALE 2024](https://www.nhh.no/en/calendar/fair/2024/conferences/eale-conference-2024/) (Bergen, Norway; 5 September)

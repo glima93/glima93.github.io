@@ -10,10 +10,10 @@
   <p> {{ paper.year }}</p>
   <p><strong>Author(s):</strong>  {{ paper.authors | join: ", " }}</p> 
   <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
-  <p><strong>Presentations:</strong> {{ paper.presentations | join: "; " }}
+  <p><strong>Presentations (including scheduled):</strong> {{ paper.presentations | join: "; " }}
 {% endfor %}
 
-<h1>Work in Progress</h1>
+<h1>Selected Work in Progress</h1>
 {% for paper in site.data.workinprogress %}
   <h2>
     {% if paper.link %}
