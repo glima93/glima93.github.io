@@ -15,7 +15,5 @@ My advisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](htt
 **E-mail:** goncalo.lima[at]eui.eu
 
 **Upcoming Conferences:** 
-  - [SOLE 2024](https://www.sole-jole.org/future-meetings) (Portland OR, US; 3 May)
-  - [JEM24](https://demm.unimi.it/index.php/en/unimi-jem24-3rd-junior-economists-meeting) (Milan, Italy; 16 May)
-  - [2024 EAYE Annual Meeting](https://www.eaye.info/eayeam/2024-edition) (Paris, France; 23 May)
+  - Workshop on the Role of Preferences in Medical Career Choices (Paris, France; 25 June)
   - [EALE 2024](https://www.nhh.no/en/calendar/fair/2024/conferences/eale-conference-2024/) (Bergen, Norway; 5 September)
