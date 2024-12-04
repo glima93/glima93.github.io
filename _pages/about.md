@@ -14,5 +14,3 @@ My advisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](htt
 
 **E-mail:** goncalo.lima[at]eui.eu
 
-**Upcoming Conferences:** 
-  - [EALE 2024](https://www.nhh.no/en/calendar/fair/2024/conferences/eale-conference-2024/) (Bergen, Norway; 5 September)
