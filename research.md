@@ -26,6 +26,20 @@
   <p><strong>Author(s):</strong>  {{ paper.authors | join: ", " }}</p> 
 {% endfor %}
 
+<h1>Publications</h1>
+{% for paper in site.data.publications %}
+  <h2>
+    {% if paper.link %}
+      <a href="{{ paper.link }}">{{ paper.title }}</a>
+    {% else %}
+      {{ paper.title }}
+    {% endif %}
+  </h2>
+  <p> {{ paper.journal }}, {{ paper.volume }}, {{ paper.year }}, {{ paper.issue }} </p>
+  <p><strong>Author(s):</strong>  {{ paper.authors | join: ", " }}</p> 
+{% endfor %}
+
+
 <h1>Working Papers</h1>
 {% for paper in site.data.workingpapers %}
   <h2>
