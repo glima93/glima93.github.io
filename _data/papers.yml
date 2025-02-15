@@ -3,11 +3,12 @@
   authors:
     - "Gonçalo Lima"
     - "Miguel Nunes"
-  abstract: "We study the effect of exposure to peers with college-educated parents on the school outcomes of children from less educated households. For identification, we exploit within-family-by-year variation to control for the significant non-random sorting of parents into schools, and time-varying shocks to the family environment. We use rich administrative data from Portugal, a school system with some of the largest gaps in educational attainment by children's socio-economic status among OECD countries. We find that moving a student from the tenth to the 90th percentile in the distribution of exposure to children with college-educated parents is equivalent to about a fifth of the gap in grade repetition by parental education. In middle school, we also find that a standard deviation increase in exposure increases GPA by 2.6 percent of a standard deviation, and reduces the proportion of failed school subjects by 3.4 percent of a standard deviation. Our findings suggest that policies curtailing segregation across schools based on parental education can play an important role in helping to close large achievement gaps between these groups."
+  abstract: "We study the effect of exposure to peers with college-educated parents on the school outcomes of children from less educated households. For identification, we exploit within-family-by-year variation to control for the significant non-random sorting of parents into schools, and time-varying shocks to the family environment. We use a rich administrative data from Portugal, a school system with some of the largest gaps in educational attainment by children's socioeconomic status among OECD countries. We find that moving a student from the 10th to the 90th percentile in the distribution of exposure to children with college-educated parents is equivalent to closing about a fifth of the gap in grade repetition by parental education. We show that the effect on grade repetition is partly driven by improved school performance, consistent with a social contagion type of mechanism. However, we also show suggestive evidence that schools fail fewer students who were eligible to repeat when faced with higher concentrations of students with college-educated parents."
   presentations: 
     - "SOLE 2024 (May 2024)"
     - "Junior Economists Meeting Milan (May 2024)"
     - "EALE 2024 (September 2024)"
+  link: "assets/papers/Parental_Education_Spillovers_Lima_Nunes.pdf"
 
 - title: "Grading Leniency and Educational Choices: Evidence from a Blind Grading Regime"
   year: "2023"
