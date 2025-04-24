@@ -5,9 +5,11 @@
     - "Miguel Nunes"
   abstract: "We study the effect of exposure to peers with college-educated parents on the school outcomes of children from less educated households. For identification, we exploit within-family-by-year variation to control for the significant non-random sorting of parents into schools, and time-varying shocks to the family environment. We use a rich administrative data from Portugal, a school system with some of the largest gaps in educational attainment by children's socioeconomic status among OECD countries. We find that moving a student from the 10th to the 90th percentile in the distribution of exposure to children with college-educated parents is equivalent to closing about a fifth of the gap in grade repetition by parental education. We show that the effect on grade repetition is partly driven by improved school performance, consistent with a social contagion type of mechanism. However, we also show suggestive evidence that schools fail fewer students who were eligible to repeat when faced with higher concentrations of students with college-educated parents."
   presentations: 
-    - "SOLE 2024 (May 2024)"
-    - "Junior Economists Meeting Milan (May 2024)"
+    - "EUI Microeconometrics Working Group (April 2025)"
     - "EALE 2024 (September 2024)"
+    - "IWAEE 2024" 
+    - "Junior Economists Meeting Milan (May 2024)"
+    - "SOLE 2024 (May 2024)"
   link: "/assets/papers/Parental_Education_Spillovers_Lima_Nunes.pdf"
 
 - title: "Grading Leniency and Educational Choices: Evidence from a Blind Grading Regime"
@@ -16,7 +18,7 @@
     - "Gonçalo Lima"
   abstract: "How do positive signals of academic ability change educational choices and future performance? I study the consequences of receiving a higher grade in a national standardized test on students' outcomes. For identification, I exploit the random assignment of graders to anonymized tests in the end of middle school, using administrative data from Portugal. First, I show that there is substantial grade manipulation in this blind grading context, consistent with graders being lenient. I then use bunching methods to identify the plausibly causal effect of leniency on students' choices. I find that low performers who benefit from lenient grading are significantly less likely to repeat the same school grade, and encouraged to enrol in a more demanding high school track. However, I cannot reject that there is no impact on academic achievement in the medium- and long-term. Finally, although graders do not observe test takers characteristics, I show that leniency in grading is selective on characteristics that may be indirectly inferred from the test. In particular, girls are marginally more likely to be bumped up."
   presentations: 
-    - "2024 Lisbon Economics and Statistics of Education (January 2024)"
+    - "Lisbon Economics and Statistics of Education (January 2024)"
     - "EUI Microeconometrics Working Group (March 2023)"
   #link: "/assets/papers/grading_leniency.pdf" # Assuming you have a 'papers' folder in your site root
 
