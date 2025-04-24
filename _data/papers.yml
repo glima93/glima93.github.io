@@ -1,5 +1,5 @@
 - title: "Parental Education Spillovers and School Outcomes: Evidence from Siblings"
-  year: "2024"
+  year: "2025"
   authors:
     - "Gonçalo Lima"
     - "Miguel Nunes"
@@ -11,6 +11,15 @@
     - "Junior Economists Meeting Milan (May 2024)"
     - "SOLE 2024 (May 2024)"
   link: "/assets/papers/Parental_Education_Spillovers_Lima_Nunes.pdf"
+
+  - title: "Physican Overtime Restrictions and Patients' Health: Evidence from Denmark"
+  year: "2025"
+  authors:
+    - "Gonçalo Lima"
+    - "Kathrine Lorentzen"
+  abstract: "We investigate the effect of restrictions on physician working hours on patient health. Using administrative and archival data from Denmark, we study a 1982 reform that capped subordinate physicians’ workweeks at 40 hours, restricted scheduling of nighttime shifts and converted pre-policy overtime hours into new jobs. Exploiting reform-induced variation in the need for hours-to-workers substitution across hospital wards, we find that more exposed wards experienced larger reductions in patient mortality rates. Our preliminary findings also indicate that the reform lifted healthcare supply constraints, with more exposed wards admitting relatively mmore patients."
+  presentations: 
+    - "Bologna Health Economics and Public Policy Evaluation (April 2025)"
 
 - title: "Grading Leniency and Educational Choices: Evidence from a Blind Grading Regime"
   year: "2023"
