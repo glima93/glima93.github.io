@@ -8,7 +8,7 @@ redirect_from:
 
 <h1>About Me</h1>
 
-Welcome! I am a PhD Candidate in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics) and a Research Fellow at the University of Bologna, in Italy. I am an applied economist with research interests in the economics of education and labor economics.
+Welcome! I am a PhD Candidate in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics) and a Research Fellow at the University of Bologna, in Italy. I am an applied economist working on the intersection of labor economics, the economics of education, and health.
 
 My advisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).
 

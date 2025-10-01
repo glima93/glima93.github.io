@@ -1,17 +1,3 @@
-- title: "Parental Education Spillovers and School Outcomes: Evidence from Siblings"
-  year: "2025"
-  authors:
-    - "Gonçalo Lima"
-    - "Miguel Nunes"
-  abstract: "We study the effect of exposure to peers with college-educated parents on the school outcomes of children from less educated households. For identification, we exploit within-family-by-year variation to control for the significant non-random sorting of parents into schools, and time-varying shocks to the family environment. We use a rich administrative data from Portugal, a school system with some of the largest gaps in educational attainment by children's socioeconomic status among OECD countries. We find that moving a student from the 10th to the 90th percentile in the distribution of exposure to children with college-educated parents is equivalent to closing about a fifth of the gap in grade repetition by parental education. We show that the effect on grade repetition is partly driven by improved school performance, consistent with a social contagion type of mechanism. However, we also show suggestive evidence that schools fail fewer students who were eligible to repeat when faced with higher concentrations of students with college-educated parents."
-  presentations: 
-    - "EUI Microeconometrics Working Group (April 2025)"
-    - "EALE 2024 (September 2024)"
-    - "IWAEE 2024" 
-    - "Junior Economists Meeting Milan (May 2024)"
-    - "SOLE 2024 (May 2024)"
-  link: "/assets/papers/Parental_Education_Spillovers_Lima_Nunes.pdf"
-
 - title: "Physician Overtime Restrictions and Patient Mortality"
   year: "2025"
   authors:
@@ -20,6 +6,19 @@
   abstract: "We study the effect of restricting physicians' working hours on patient mortality. We use a dose-response difference-in-differences strategy to evaluate the impact of a 1982 reform in Denmark that capped subordinate physicians' workweeks at 40-hours, and restricted the scheduling of overtime and nighttime shifts. Drawing on new archival data and administrative registries on the universe of hospitalizations in the country, we show that the reform led to a 35% increase in overall labor demand for physicians, with higher overtime need specialties hiring the most. Combining this reform-induced shock with pre-reform differences in overtime need across hospital wards, we find that one more standard deviation in exposure to the policy led to 2.4 fewer deaths in hospital for each thousand admissions (-5.8%). We show that overtime-intensive wards decreased the relative concentration of acute cases, reducing in-hospital mortality among this type of patients by 9.3%. Our results highlight the relevance of labor market regulations to correct for inefficiencies in the healthcare sector."
   presentations: 
     - "Bologna Health Economics and Public Policy Evaluation (April 2025)"
+
+- title: "Parental Education Spillovers and School Outcomes: Evidence from Siblings"
+  year: "2025"
+  authors:
+    - "Gonçalo Lima"
+    - "Miguel Nunes"
+  abstract: "We study the effect of exposure to peers with college-educated parents on the school outcomes of children from less educated households. For identification, we exploit within-family-by-year variation to control for the significant non-random sorting of parents into schools, and time-varying shocks to the family environment. We use a rich administrative data from Portugal, a school system with some of the largest gaps in educational attainment by children's socioeconomic status among OECD countries. We find that moving a student from the 10th to the 90th percentile in the distribution of exposure to children with college-educated parents is equivalent to closing about a fifth of the gap in grade repetition by parental education. We show that the effect on grade repetition is partly driven by improved school performance, consistent with a social contagion type of mechanism. However, we also show suggestive evidence that schools fail fewer students who were eligible to repeat when faced with higher concentrations of students with college-educated parents."
+  presentations: 
+    - "EALE 2024 (September 2024)"
+    - "IWAEE 2024" 
+    - "Junior Economists Meeting Milan (May 2024)"
+    - "SOLE 2024 (May 2024)"
+  link: "/assets/papers/Parental_Education_Spillovers_Lima_Nunes.pdf"
 
 - title: "Grading Leniency and Educational Choices: Evidence from a Blind Grading Regime"
   year: "2023"
