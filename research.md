@@ -1,3 +1,9 @@
+---
+layout: single
+title: "Research"
+permalink: /research/
+---
+
 <h1>Selected Work in Progress</h1>
 {% for paper in site.data.papers %}
   <h2>
