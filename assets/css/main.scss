@@ -56,3 +56,133 @@ a[href^="http://"], a[href^="https://"], a[href*="/papers/"] {
   color: #3c6e71;
   text-decoration: none;
 }
+
+/* Clean academic theme overrides
+   Keep custom rules at the end so they reliably override imported theme styles. */
+
+body {
+  background: #fbfbf8;
+  color: #2f3437;
+  font-size: 15px;
+  line-height: 1.65;
+  text-align: left;
+}
+
+.page {
+  background: transparent;
+}
+
+.page__inner-wrap,
+.masthead__inner-wrap,
+.page__footer footer {
+  max-width: 1080px;
+}
+
+.masthead {
+  background: #ffffff;
+  border-bottom: 1px solid #dde3e6;
+}
+
+.masthead__menu-item--lg a {
+  color: #1f3a5f;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.greedy-nav {
+  background: #ffffff;
+}
+
+.greedy-nav a {
+  color: #3d4b52;
+}
+
+.greedy-nav a:hover {
+  color: #1f3a5f;
+}
+
+.sidebar {
+  opacity: 1;
+}
+
+.author__content,
+.author__urls-wrapper,
+.author__urls {
+  background: #ffffff;
+}
+
+.author__avatar img {
+  border: 2px solid #d9e2e8;
+  border-radius: 8px;
+}
+
+.author__name {
+  color: #1f3a5f;
+}
+
+.page__title,
+.archive__item-title,
+h1,
+h2,
+h3 {
+  color: #1f3a5f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 1.55rem;
+  text-decoration: none;
+  border-bottom: 1px solid #dde3e6;
+  padding-bottom: 0.2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+}
+
+.page__content p,
+.page__content li {
+  color: #2f3437;
+}
+
+.page__content a,
+.archive__item-title a {
+  color: #1f5f7a;
+  text-decoration: underline;
+  text-decoration-color: rgba(31, 95, 122, 0.35);
+  text-underline-offset: 0.12em;
+}
+
+.page__content a:hover,
+.archive__item-title a:hover {
+  color: #15485d;
+  text-decoration-color: rgba(21, 72, 93, 0.7);
+}
+
+.notice,
+.page__related,
+.archive {
+  background: transparent;
+}
+
+code,
+pre {
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.35rem;
+  }
+}
