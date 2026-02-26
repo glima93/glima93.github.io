@@ -80,6 +80,7 @@ analytics:
 
 # Site Author
 author:
+  name_pronunciation: "Sounds like gon-SAH-loo"
   name             : "Gonçalo Lima"
   avatar           : "profile.png"
   bio              : "PhD Candidate in Economics"
