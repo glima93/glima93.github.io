@@ -53,12 +53,18 @@ h1{
 @import "print";
 
 a[href^="http://"], a[href^="https://"], a[href*="/papers/"] {
-  color: #3c6e71;
+  color: #1f3a5f;
   text-decoration: none;
+  font-weight: 700;
 }
 
 /* Clean academic theme overrides
    Keep custom rules at the end so they reliably override imported theme styles. */
+
+html,
+body {
+  background: #fbfbf8;
+}
 
 body {
   background: #fbfbf8;
@@ -66,6 +72,12 @@ body {
   font-size: 15px;
   line-height: 1.65;
   text-align: left;
+}
+
+#main,
+.initial-content,
+.page__footer {
+  background: #fbfbf8;
 }
 
 .page {
@@ -116,8 +128,39 @@ body {
   border-radius: 8px;
 }
 
+.sidebar .author__avatar {
+  width: 100%;
+  max-width: 260px;
+}
+
+.sidebar .author__avatar img,
+.sidebar .author__avatar .author__avatar {
+  width: 100%;
+  height: auto;
+  max-width: 260px;
+}
+
 .author__name {
   color: #1f3a5f;
+}
+
+.sidebar .author__name {
+  font-size: 1.12rem;
+  line-height: 1.25;
+}
+
+.sidebar .author__bio {
+  font-size: 0.97rem;
+  line-height: 1.45;
+}
+
+.sidebar .author__urls {
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.sidebar .author__urls li {
+  margin-bottom: 0.2rem;
 }
 
 .page__title,
@@ -154,16 +197,15 @@ h3 {
 
 .page__content a,
 .archive__item-title a {
-  color: #1f5f7a;
-  text-decoration: underline;
-  text-decoration-color: rgba(31, 95, 122, 0.35);
-  text-underline-offset: 0.12em;
+  color: #1f3a5f;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .page__content a:hover,
 .archive__item-title a:hover {
-  color: #15485d;
-  text-decoration-color: rgba(21, 72, 93, 0.7);
+  color: #16304f;
+  text-decoration: none;
 }
 
 .notice,
@@ -184,5 +226,228 @@ pre {
 
   h1 {
     font-size: 1.35rem;
+  }
+}
+
+@media (min-width: 925px) {
+  /* Homepage uses the sidebar profile; reserve enough room so the larger avatar
+     never overlaps main content at browser zoom levels. */
+  #main > .sidebar {
+    width: 290px;
+    margin-right: 1.25rem;
+  }
+
+  #main > .sidebar + .page {
+    float: none;
+    width: auto;
+    margin: 0;
+    overflow: hidden;
+  }
+}
+
+/* Research page: interactive cards */
+
+.research-hub {
+  --research-border: #dce3e8;
+  --research-accent: #243d73;
+  --research-accent-soft: #eef2fb;
+  --research-text-muted: #5b6770;
+  margin-top: 0.25rem;
+}
+
+.research-hub__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0 0 1.75rem;
+}
+
+.research-filter {
+  appearance: none;
+  border: 1px solid #8ea0c6;
+  background: #fff;
+  color: #23313a;
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.1;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.research-filter:hover,
+.research-filter:focus {
+  border-color: var(--research-accent);
+  color: var(--research-accent);
+  outline: none;
+}
+
+.research-filter.is-active {
+  background: var(--research-accent);
+  color: #fff;
+  border-color: var(--research-accent);
+}
+
+.research-section {
+  margin: 0 0 2.25rem;
+}
+
+.research-section[hidden] {
+  display: none;
+}
+
+.research-section__title {
+  margin: 0 0 0.9rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-size: 1.35rem;
+}
+
+.research-cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.research-card {
+  background: #fff;
+  border: 1px solid var(--research-border);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 2px 6px rgba(25, 35, 45, 0.04);
+}
+
+.research-card__header {
+  margin-bottom: 0.25rem;
+}
+
+.research-card__title {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.35;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.research-card__title a {
+  color: #162f57;
+  text-decoration: none;
+}
+
+.research-card__title a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(22, 47, 87, 0.4);
+}
+
+.research-card__year {
+  margin: 0.3rem 0 0;
+  color: var(--research-text-muted);
+  font-size: 0.9rem;
+}
+
+.research-card__status {
+  font-style: italic;
+  font-weight: 400;
+  color: #4f5d68;
+  margin-left: 0.25rem;
+}
+
+.research-card__authors,
+.research-card__meta,
+.research-card__links {
+  margin: 0.45rem 0 0;
+}
+
+.research-card__authors {
+  color: #44515b;
+  font-style: italic;
+}
+
+.research-card__label {
+  font-style: italic;
+  color: var(--research-text-muted);
+}
+
+.research-card__journal {
+  font-style: italic;
+}
+
+.research-card__details {
+  margin-top: 0.6rem;
+  margin-bottom: 0.85rem;
+}
+
+.research-card__details summary {
+  display: inline-block;
+  cursor: pointer;
+  list-style: none;
+  color: #3c4650;
+  background: #f4f6f8;
+  border: 1px solid #cfd8de;
+  border-radius: 6px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.82rem;
+  font-style: italic;
+}
+
+.research-card__details summary::-webkit-details-marker {
+  display: none;
+}
+
+.research-card__details summary::before {
+  content: ">";
+  margin-right: 0.35rem;
+  color: #5d6872;
+}
+
+.research-card__details[open] summary {
+  background: var(--research-accent-soft);
+  border-color: #c9d5f0;
+  color: #223a6b;
+}
+
+.research-card__details[open] summary::before {
+  content: "v";
+}
+
+.research-card__details-body {
+  margin-top: 0.6rem;
+  padding-top: 0.1rem;
+}
+
+.research-card__details-body p {
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.research-card__links a {
+  color: #1f5f7a;
+  text-decoration: underline;
+  text-decoration-color: rgba(31, 95, 122, 0.35);
+}
+
+@media (max-width: 768px) {
+  .research-hub__filters {
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .research-filter {
+    font-size: 0.84rem;
+    padding: 0.32rem 0.75rem;
+  }
+
+  .research-section {
+    margin-bottom: 1.6rem;
+  }
+
+  .research-card {
+    padding: 0.9rem;
+  }
+
+  .sidebar .author__avatar img,
+  .sidebar .author__avatar .author__avatar {
+    width: 170px;
+    max-width: 170px;
   }
 }

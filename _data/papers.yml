@@ -1,7 +1,5 @@
 - title: "Physician Working Time Restrictions and Patient Mortality"
-  year: "2025"
   authors:
-    - "Gonçalo Lima"
     - "Kathrine Lorentzen"
   abstract: "We study how shortening physicians' work schedules affects healthcare provision and patient mortality. We exploit a 1982 reform in Denmark that strongly restricted hospital doctors' overtime, weekend, and nighttime shifts. Consistent with substitution from hours to workers, vacancies increased by 35% one-year after implementation. Using a dose-response difference-in-differences strategy, we leverage variation in the timing and intensity of the policy across hospital wards with different pre-reform reliance on overtime to document three main results. First, wards where labor demand changed the most substantially decreased in-hospital mortality rates, especially among emergency admissions. Second, while more physicians led to more admissions, better mortality outcomes are not explained by shifts in patient composition. Third, persistent post-discharge mortality declines and no change in readmissions or duration of stays suggest that gains were not at the expense of higher patient turnover. Our findings are consistent with overtime regulations correcting inefficiently long work hours in a frictional labor market."
   presentations:  
@@ -9,11 +7,11 @@
     - "Bolzano Applied Microeconomics Workshop (March 2026)"
     - "23rd Brucchi Luchino Labor Economics Workshop (December 2025)"
     - "Bologna Health Economics and Public Policy Evaluation (April 2025)"
+  draft: "Draft coming soon"
 
-- title: "Parental Education Spillovers and School Outcomes: Evidence from Siblings [under review]"
-  year: "2025"
+- title: "Parental Education Spillovers and School Outcomes: Evidence from Siblings"
+  status: "Under Review"
   authors:
-    - "Gonçalo Lima"
     - "Miguel Nunes"
   abstract: "We study the effect of exposure to peers with college-educated parents on the school outcomes of children from less educated households. For identification, we exploit within-family-by-year variation to control for the significant non-random sorting of parents into schools, and time-varying shocks to the family environment. We use a rich administrative data from Portugal, a school system with some of the largest gaps in educational attainment by children's socioeconomic status among OECD countries. We find that moving a student from the 10th to the 90th percentile in the distribution of exposure to children with college-educated parents is equivalent to closing about a fifth of the gap in grade repetition by parental education. We show that the effect on grade repetition is partly driven by improved school performance, consistent with a social contagion type of mechanism. However, we also show suggestive evidence that schools fail fewer students who were eligible to repeat when faced with higher concentrations of students with college-educated parents."
   presentations: 
@@ -24,14 +22,20 @@
   link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5489366"
 
 - title: "Grading Leniency and Educational Choices: Evidence from a Blind Grading Regime"
-  year: "2023"
-  authors:
-    - "Gonçalo Lima"
   abstract: "How do positive signals of academic ability change educational choices and future performance? I study the consequences of receiving a higher grade in a national standardized test on students' outcomes. For identification, I exploit the random assignment of graders to anonymized tests in the end of middle school, using administrative data from Portugal. First, I show that there is substantial grade manipulation in this blind grading context, consistent with graders being lenient. I then use bunching methods to identify the plausibly causal effect of leniency on students' choices. I find that low performers who benefit from lenient grading are significantly less likely to repeat the same school grade, and encouraged to enrol in a more demanding high school track. However, I cannot reject that there is no impact on academic achievement in the medium- and long-term. Finally, although graders do not observe test takers characteristics, I show that leniency in grading is selective on characteristics that may be indirectly inferred from the test. In particular, girls are marginally more likely to be bumped up."
   presentations: 
     - "Lisbon Economics and Statistics of Education (January 2024)"
     - "EUI Microeconometrics Working Group (March 2023)"
+  draft: "Draft available upon request"
   #link: "/assets/papers/grading_leniency.pdf" # Assuming you have a 'papers' folder in your site root
+
+- title: "Gender and Screening: Evidence from a Medical Licensing Exam Reform"
+
+- title: "Matching Skill Demand with Skill Supply: Evidence from Job Vacancies and Higher Education Curricula"
+  authors:
+    - "Margherita Fort"
+    - "Veronica Rattini"
+    - "Vincenzo Scrutinio"
 
 #- title: "No Country for Young Kids? The Effects of School Starting Age throughout Childhood and Beyond"
 #  year: "2019"
