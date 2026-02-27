@@ -14,7 +14,7 @@ I am an applied economist working on the intersection of labor economics, the ec
 
 My advisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).
 
-Please, find here my [here](/assets/docs/cv.pdf).
+Please, find my CV [here](/assets/docs/cv.pdf).
 
 **E-mail:** goncalo.lima[at]eui.eu; goncalo.lima[at]unibo.it
 
