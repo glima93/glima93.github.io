@@ -422,10 +422,14 @@ pre {
   padding-top: 0.1rem;
 }
 
-.research-card__details-body p {
-  margin: 0;
+.research-card p {
+  max-width: none;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.research-card__details-body p {
+  margin: 0;
 }
 
 .research-card__links a {

@@ -16,5 +16,5 @@ My advisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](htt
 
 Please, find here my [here](/assets/docs/cv.pdf).
 
-**E-mail:** goncalo.lima[at]eui.eu; goncalo.lima[at]eui.eu
+**E-mail:** goncalo.lima[at]eui.eu; goncalo.lima[at]unibo.it
 
