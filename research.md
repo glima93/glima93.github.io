@@ -30,7 +30,7 @@ permalink: /research/
         </div>
 
         {% if paper.authors %}
-          <p class="research-card__authors">{{ paper.authors | join: ", " }}</p>
+          <p class="research-card__authors">with {{ paper.authors | join: ", " }}</p>
         {% endif %}
 
         {% if paper.abstract %}

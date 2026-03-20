@@ -10,20 +10,23 @@
   /* default button */
   display: inline-block;
   margin-bottom: 0.25em;
-  padding: 0.5em 1em;
-  color: #fff !important;
-  font-family: $sans-serif;
+  padding: 0.5em 1.15em;
+  color: #3a3a3a !important;
+  font-family: $source-serif;
   font-size: $type-size-6;
-  font-weight: bold;
+  font-weight: 400;
   text-align: center;
   text-decoration: none;
-  background-color: $primary-color;
-  border: 0 !important;
-  border-radius: $border-radius;
+  background-color: #fff;
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 999px;
   cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background-color: #1a1a1a;
+    color: #fff !important;
+    border-color: #1a1a1a !important;
   }
 
   .icon {
