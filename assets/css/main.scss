@@ -114,6 +114,18 @@ body {
   color: #1f3a5f;
 }
 
+/* Mobile nav toggle: replace the theme's blue button with the clean
+   near-black palette so it stops clashing with the white masthead.
+   The navicon bars stay white (set in _utilities.scss), which keeps the
+   hamburger and its open/close "X" animation visible. */
+.greedy-nav button {
+  background-color: #1a1a1a;
+}
+
+.greedy-nav button:hover {
+  background-color: #3d4b52;
+}
+
 .sidebar {
   opacity: 1;
 }
@@ -499,10 +511,40 @@ pre {
     padding: 0.9rem;
   }
 
+  /* Stack the author profile vertically. Below the theme's $large (1200px)
+     breakpoint the avatar, name/bio, and Follow button render as side-by-side
+     table-cells; combined with the enlarged avatar this crushes the name into
+     a one-word-per-line column. Force a centered, stacked layout on phones. */
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar .author__avatar {
+    margin: 0 auto 0.85rem;
+  }
+
   .sidebar .author__avatar img,
   .sidebar .author__avatar .author__avatar {
     width: 170px;
     max-width: 170px;
+  }
+
+  .sidebar .author__content {
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 1.35;
+  }
+
+  .sidebar .author__name {
+    margin: 0 0 0.3rem;
+  }
+
+  .sidebar .author__name-pronunciation {
+    margin-top: 0;
   }
 }
 

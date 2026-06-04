@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -iE \"\\\\.\\(scss|css|sass\\)$\")",
+      "Bash(bundle exec *)"
+    ]
+  }
+}
