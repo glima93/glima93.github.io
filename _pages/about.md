@@ -6,15 +6,12 @@ redirect_from:
   - /about.html
 ---
 
-**Welcome!**
 
-I am a PhD Candidate in Economics at the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics) and a Research Fellow at the [University of Bologna](https://dse.unibo.it/en), in Italy. 
+I am a Research Fellow at the Department of Economics, in the [University of Bologna](https://dse.unibo.it/en), in Italy. In Fall 2026 I will join the University of Copenhagen and the [Center for Economic Behavior and Inequality](https://www.econ.ku.dk/cebi), in Denmark, as a Postdoctoral Researcher. 
+
+I hold a PhD in Economics from [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics), where my advisors were [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).
 
 I am an applied economist working on the intersection of labor economics, the economics of education, and health.
 
-My advisors are [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).
-
-Please, find my CV [here](/assets/docs/cv.pdf).
-
-**E-mail:** goncalo.lima[at]eui.eu; goncalo.lima[at]unibo.it
+**Contact:** goncalo.lima[at]eui.eu; goncalo.lima[at]unibo.it
 
