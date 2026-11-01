@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Policy & Others"
+permalink: /policy/
+redirect_from:
+  - /policy_reports/
+  - /replications/
+---
+{% assign d = site.data %}
+<nav class="jump" aria-label="Policy and other sections">
+  {% if d.policy.size > 0 %}<a href="#policy-reports">Policy Reports<span class="count">{{ d.policy.size }}</span></a>{% endif %}
+  {% if d.replication_papers.size > 0 %}<a href="#replications">Replications<span class="count">{{ d.replication_papers.size }}</span></a>{% endif %}
+</nav>
+
+<div class="r-body">
+  {% include research-section.html id="policy-reports" title="Policy Reports" note="OECD" items=d.policy %}
+  {% include research-section.html id="replications" title="Replications" note="Institute for Replication" items=d.replication_papers %}
+</div>

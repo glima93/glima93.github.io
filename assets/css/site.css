@@ -207,6 +207,7 @@ main .wrap { padding-block: 56px 72px; }
 }
 @media (max-width: 640px) {
   :root { --step-3: 1.95rem; --step-2: 1.45rem; }
+  .nav { gap: 16px; font-size: 0.95rem; }
   main .wrap { padding-block: 36px 56px; }
   .page { gap: 36px; }
   .featured { grid-template-columns: 1fr; }

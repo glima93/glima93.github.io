@@ -2,23 +2,16 @@
 layout: page
 title: "Research"
 permalink: /research/
-redirect_from:
-  - /policy_reports/
-  - /replications/
 ---
 {% assign d = site.data %}
 <nav class="jump" aria-label="Research sections">
   {% if d.papers.size > 0 %}<a href="#working-papers">Working Papers<span class="count">{{ d.papers.size }}</span></a>{% endif %}
   {% if d.publications.size > 0 %}<a href="#publications">Publications<span class="count">{{ d.publications.size }}</span></a>{% endif %}
   {% if d.wip.size > 0 %}<a href="#work-in-progress">Work in Progress<span class="count">{{ d.wip.size }}</span></a>{% endif %}
-  {% if d.policy.size > 0 %}<a href="#policy">Policy Reports<span class="count">{{ d.policy.size }}</span></a>{% endif %}
-  {% if d.replication_papers.size > 0 %}<a href="#replications">Replications<span class="count">{{ d.replication_papers.size }}</span></a>{% endif %}
 </nav>
 
 <div class="r-body">
   {% include research-section.html id="working-papers" title="Working Papers" items=d.papers %}
   {% include research-section.html id="publications" title="Publications" items=d.publications %}
   {% include research-section.html id="work-in-progress" title="Work in Progress" items=d.wip %}
-  {% include research-section.html id="policy" title="Policy Reports" note="OECD" items=d.policy %}
-  {% include research-section.html id="replications" title="Replications" note="Institute for Replication" items=d.replication_papers %}
 </div>

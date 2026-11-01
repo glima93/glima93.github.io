@@ -2,6 +2,9 @@ main:
   - title: "Research"
     url: /research/
 
+  - title: "Policy & Others"
+    url: /policy/
+
   - title: "Teaching"
     url: /teaching/
 
