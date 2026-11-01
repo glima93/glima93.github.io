@@ -1,0 +1,16 @@
+---
+layout: page
+title: "Teaching"
+permalink: /teaching/
+---
+<div class="cv-body">
+  <section class="cv-block">
+    <h2>Teaching Assistant</h2>
+    {% for item in site.data.teaching_items %}
+    <div class="cv-row">
+      <span class="yr">{{ item.term }}</span>
+      <span class="what"><b>{{ item.class }}</b><span class="sub">{% if item.professor %}TA to Professor {{ item.professor }}{% endif %}{% if item.institution %} · {{ item.institution }}{% endif %}{% if item.level %} · {{ item.level }}{% endif %}</span></span>
+    </div>
+    {% endfor %}
+  </section>
+</div>

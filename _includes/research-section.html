@@ -1,0 +1,9 @@
+{% if include.items and include.items.size > 0 %}
+<section class="r-section" id="{{ include.id }}">
+  <h2>{{ include.title }}{% if include.note %} <small>{{ include.note }}</small>{% endif %}</h2>
+  {% for p in include.items %}
+    {% capture key %}{{ include.id }}-{{ forloop.index }}{% endcapture %}
+    {% include paper.html p=p key=key %}
+  {% endfor %}
+</section>
+{% endif %}

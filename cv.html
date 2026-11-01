@@ -1,0 +1,24 @@
+---
+layout: page
+title: "Curriculum Vitae"
+show_title: false
+permalink: /cv/
+---
+<div class="cv-head">
+  <h1 class="page-title">Curriculum Vitae</h1>
+  <a class="btn primary" href="{{ '/assets/docs/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download PDF</a>
+</div>
+
+<div class="cv-body">
+  {% for block in site.data.cv %}
+  <section class="cv-block">
+    <h2>{{ block.section }}</h2>
+    {% for e in block.entries %}
+    <div class="cv-row">
+      <span class="yr">{{ e.years }}</span>
+      <span class="what"><b>{{ e.title }}</b>{% if e.detail %}<span class="sub">{{ e.detail }}</span>{% endif %}</span>
+    </div>
+    {% endfor %}
+  </section>
+  {% endfor %}
+</div>

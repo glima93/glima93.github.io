@@ -1,0 +1,41 @@
+# Sections of the CV page. The full CV is the PDF at assets/docs/cv.pdf.
+# Each entry: years, title, detail (smaller grey line).
+
+- section: "Academic Positions"
+  entries:
+    - years: "2026–"
+      title: "Postdoctoral Researcher"
+      detail: "Department of Economics and CEBI, University of Copenhagen"
+
+- section: "Education"
+  entries:
+    - years: "2026"
+      title: "PhD in Economics"
+      detail: "European University Institute · Supervisors: Andrea Ichino and Sule Alan"
+    - years: "2021"
+      title: "Master of Research in Economics"
+      detail: "European University Institute"
+    - years: "2017"
+      title: "MSc in Economics"
+      detail: "Lisbon University Institute (ISCTE)"
+    - years: "2015"
+      title: "BSc in Economics"
+      detail: "Lisbon University Institute (ISCTE)"
+
+- section: "Other Employment"
+  entries:
+    - years: "2024–26"
+      title: "Research Fellow"
+      detail: "Department of Economics, University of Bologna"
+    - years: "2024"
+      title: "Research Assistant to Tommaso Nannicini and Nicola Fontana"
+      detail: "European University Institute"
+    - years: "2018–20"
+      title: "Predoctoral Research Assistant to Luís Catela Nunes and Ana Balcão Reis"
+      detail: "Nova School of Business and Economics"
+    - years: "2016–18"
+      title: "Consultant"
+      detail: "OECD, Directorate for Education and Skills"
+    - years: "2016"
+      title: "Intern"
+      detail: "OECD, Directorate for Education and Skills"

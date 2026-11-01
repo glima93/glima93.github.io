@@ -1,20 +1,59 @@
+# Published articles. Same fields as papers.yml, plus:
+#   journal, volume, issue, pages, year (shown under the title)
+#   bibtex (enables the "Copy BibTeX" button)
+
 - title: "Reproducibility and Robustness of Economics and Political Science Research"
-  year: "2026"
-  journal: "Nature"
-  volume: "652"
   link: "https://www.nature.com/articles/s41586-026-10251-x"
   authors:
     - "Abel Brodeur, Derek Mikola, Nikolai Cook et al."
-
+  status: "Nature 2026"
+  status_style: "pub"
+  journal: "Nature"
+  volume: "652"
+  pages: "151–156"
+  year: "2026"
+  summary: "A large, multi-team effort to reproduce and stress-test published research in economics and political science."
+  abstract: "This systematic and large-scale reproduction effort tests the reproducibility and robustness of economics and political science, contributing to a growing literature on research credibility and self-correction in science. We reproduced original analyses and conducted robustness checks of 110 articles recently published in leading economics and political science journals, all of which have mandatory data and code sharing policies. We found that over 85% of published claims were computationally reproducible. In robustness checks, our re-analyses led to 72% of statistically significant estimates to remain significant and in the same direction, and the median reproduced effect size is (nearly) the same as the originally published effect size (that is, 99% of the published effect size). Additionally, six independent research teams examined 12 pre-specified hypotheses about determinants of robustness. Research teams with more experience found lower levels of robustness, and robustness correlated with neither author characteristics nor data availability."
+  links:
+    - label: "Article"
+      url: "https://www.nature.com/articles/s41586-026-10251-x"
+    - label: "PDF"
+      url: "/assets/papers/reproducibility_replication_nature.pdf"
+    - label: "Appendix"
+      url: "/assets/papers/reproducibility_replication_nature_appendix.pdf"
+  bibtex: |
+    @article{brodeur2026reproducibility,
+      title   = {Reproducibility and Robustness of Economics and Political Science Research},
+      author  = {Brodeur, Abel and Mikola, Derek and Cook, Nikolai and others},
+      journal = {Nature},
+      volume  = {652},
+      pages   = {151--156},
+      year    = {2026}
+    }
 
 - title: "What Matters for the Decision to Study Abroad? A Lab-in-the-Field Experiment in Cape Verde"
-  year: "2025"
-  journal: "Journal of Development Economics"
-  volume: "173"
-  issue: "103401"
-  link: "https://www.sciencedirect.com/science/article/pii/S0304387824001500?via%3Dihub"
+  link: "https://www.sciencedirect.com/science/article/pii/S0304387824001500"
   authors:
     - "Catia Batista"
     - "David M. Costa"
     - "Pedro Freitas"
     - "Ana B. Reis"
+  status: "JDE 2025"
+  status_style: "pub"
+  journal: "Journal of Development Economics"
+  volume: "173"
+  issue: "103401"
+  year: "2025"
+  abstract: "Study abroad migration is the fastest growing international migration flow. However, the college completion rates of students from low-income countries are often modest in OECD countries, raising the hypothesis that these migrants are poorly informed about the costs and benefits of their decision. Our work tests this hypothesis by running a lab-in-the-field experiment where graduating high school students in Cape Verde are faced with incentivized decisions to apply for college studies abroad. Our results show that potential migrants react strongly to information about the availability of financial support and about college completion rates. Since subjects' prior beliefs on availability of financial support are overestimated, it is likely that study migrants need to shift their time from study to work after uninformed migration, which likely harms their scholar performance. Policies that inform potential migrants of actual study funding possibilities should decrease study migration flows but are likely to improve successful graduation."
+  links:
+    - label: "Article"
+      url: "https://www.sciencedirect.com/science/article/pii/S0304387824001500"
+  bibtex: |
+    @article{batista2025study,
+      title   = {What Matters for the Decision to Study Abroad? A Lab-in-the-Field Experiment in Cape Verde},
+      author  = {Batista, Catia and Costa, David M. and Freitas, Pedro and Lima, Gon{\c{c}}alo and Reis, Ana B.},
+      journal = {Journal of Development Economics},
+      volume  = {173},
+      pages   = {103401},
+      year    = {2025}
+    }

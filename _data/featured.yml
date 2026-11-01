@@ -1,0 +1,13 @@
+# Featured paper card on the Home page.
+# Set show to true to display it. image is optional (e.g. /assets/images/featured.png).
+
+show: false
+label: "Featured working paper"
+title: "Physician Working Time Restrictions and Patient Mortality"
+link: "/assets/papers/Physician_Working_Time_Restrictions_Lima_Lorentzen.pdf"
+authors:
+  - "Kathrine Lorentzen"
+summary: "When Denmark sharply restricted hospital doctors' overtime, night and weekend shifts in 1982, wards hired more physicians and in-hospital mortality fell, especially among emergency admissions."
+button: "Read the paper (PDF)"
+image:
+image_alt:

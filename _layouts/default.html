@@ -1,41 +1,72 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.title %}{% assign page_title = page.title | append: " | " | append: site.title %}{% else %}{% assign page_title = site.title %}{% endif %}
+  {% assign page_description = page.description | default: site.description %}
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description | strip_html | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description" content="{{ page_description | strip_html | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/profile.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BR88WPRM4D"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-BR88WPRM4D');
-    </script>
-  </head>
+  <!-- Apply the visitor's saved theme before the page paints -->
+  <script>try { if (localStorage.getItem("site-theme") === "dark") document.documentElement.setAttribute("data-site-theme", "dark"); } catch (e) {}</script>
 
-  <body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="manifest" href="{{ '/images/site.webmanifest' | relative_url }}">
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BR88WPRM4D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BR88WPRM4D');
+  </script>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+      <nav class="nav" aria-label="Main">
+        {% for link in site.data.navigation.main %}
+          <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        </button>
+      </nav>
     </div>
+  </header>
 
-    {% include scripts.html %}
+  <main>
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </main>
 
-  </body>
+  <footer class="site-foot">
+    <div class="wrap">
+      <span>© {{ site.time | date: "%Y" }} {{ site.author.name }} · {{ site.author.location }}</span>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
 </html>

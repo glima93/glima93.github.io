@@ -1,0 +1,1 @@
+{%- for name in include.names -%}{%- if forloop.first -%}{%- elsif forloop.last %} and {% else %}, {% endif -%}{{ name }}{%- endfor -%}

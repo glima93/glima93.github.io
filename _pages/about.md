@@ -1,16 +1,13 @@
 ---
+layout: home
 permalink: /
-author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
+I am an applied economist working at the intersection of labor economics, health economics, and the economics of education.
 
-I am a Postdoctoral Researcher at the University of Copenhagen and the [Center for Economic Behavior and Inequality](https://www.econ.ku.dk/cebi). I am an applied economist working on the intersection of labor economics, the economics of education, and health.
+I am a Postdoctoral Researcher in the Department of Economics at the University of Copenhagen, based at the [Center for Economic Behavior and Inequality (CEBI)](https://www.econ.ku.dk/cebi), where I am a member of the new Health Economics and Aging Lab (HEAL).
 
-I hold a PhD in Economics from the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics), where my advisors were [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).
-
-
-**Contact:** goncalo.lima[at]eui.eu; goncalo.lima[at]unibo.it
-
+I received my PhD in Economics from the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics), where I was advised by [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).

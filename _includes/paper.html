@@ -1,0 +1,33 @@
+{% assign p = include.p %}
+<article class="paper">
+  <div class="paper__top">
+    <h3>{% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    {% if p.status %}<span class="pill {{ p.status_style }}">{{ p.status }}</span>{% endif %}
+  </div>
+
+  {% capture venue %}{% if p.journal %}<i>{{ p.journal }}</i>{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.issue %}, {{ p.issue }}{% endif %}{% if p.pages %}, pp. {{ p.pages }}{% endif %}{% if p.year %}, {{ p.year }}{% endif %}{% elsif p.publication %}{{ p.publication }}{% if p.year %}, {{ p.year }}{% endif %}{% endif %}{% endcapture %}
+  {% if p.authors or venue != "" %}
+    <p class="meta">{% if p.authors %}with {% include join-names.html names=p.authors %}{% endif %}{% if p.authors and venue != "" %} · {% endif %}{{ venue }}</p>
+  {% endif %}
+
+  {% if p.summary %}<p class="takeaway">{{ p.summary }}</p>{% endif %}
+
+  {% if p.abstract %}
+    <button class="btn abs-toggle" type="button" aria-expanded="false" aria-controls="abs-{{ include.key }}">Abstract</button>
+    <div class="abstract" id="abs-{{ include.key }}"><div><p lang="en">{{ p.abstract }}</p></div></div>
+  {% endif %}
+
+  {% if p.presentations %}
+    <p class="talks">Presented at: {{ p.presentations | join: " · " }}</p>
+  {% endif %}
+
+  {% if p.links or p.bibtex %}
+    <div class="btn-row">
+      {% for l in p.links %}<a class="btn" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}
+      {% if p.bibtex %}
+        <button class="btn" type="button" data-copy-from="bib-{{ include.key }}" data-msg="BibTeX copied">Copy BibTeX</button>
+        <pre class="bibtex" id="bib-{{ include.key }}" hidden>{{ p.bibtex | strip | escape }}</pre>
+      {% endif %}
+    </div>
+  {% endif %}
+</article>

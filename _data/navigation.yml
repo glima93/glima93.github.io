@@ -1,16 +1,9 @@
-# main links links
 main:
   - title: "Research"
-    url: /research/  
+    url: /research/
 
   - title: "Teaching"
     url: /teaching/
-
-  - title: "Policy Reports"
-    url: /policy_reports/
-     
-  - title: "Replications"
-    url: /replications/
 
   - title: "CV"
     url: /cv/

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{% assign author = site.author %}
+<div class="home">
+  <aside class="profile" aria-label="Profile">
+    <img class="portrait" src="{{ author.avatar | prepend: '/images/' | relative_url }}" alt="Portrait of {{ author.name }}">
+    <p class="role"><b>{{ author.position }}</b>{% for line in author.affiliation %}<span>{{ line }}</span>{% endfor %}</p>
+    <ul class="contact">
+      <li>
+        <span class="lbl">Email</span>
+        <span class="email"><a href="mailto:{{ author.email }}">{{ author.email }}</a><button class="btn small" type="button" data-copy="{{ author.email }}" data-msg="Email copied">Copy</button></span>
+      </li>
+      <li class="icons">
+        {% include icon-links.html %}
+      </li>
+    </ul>
+  </aside>
+
+  <div class="home-main">
+    <div class="bio" lang="en">
+      {{ content }}
+      <div class="skyline" data-skyline aria-hidden="true"></div>
+    </div>
+
+    {% assign f = site.data.featured %}
+    {% if f.show %}
+    <section aria-labelledby="feat-h">
+      <p class="eyebrow" id="feat-h">{{ f.label }}</p>
+      <article class="featured{% unless f.image %} featured--text{% endunless %}">
+        <div class="featured__text">
+          <h2><a href="{{ f.link }}">{{ f.title }}</a></h2>
+          {% if f.authors %}<p class="byline">with {% include join-names.html names=f.authors %}</p>{% endif %}
+          {% if f.summary %}<p class="takeaway">{{ f.summary }}</p>{% endif %}
+          <div class="btn-row">
+            <a class="btn primary" href="{{ f.link }}">{{ f.button | default: "Read the paper" }}</a>
+            <a class="btn" href="{{ '/research/' | relative_url }}">All research</a>
+          </div>
+        </div>
+        {% if f.image %}
+        <figure class="featured__fig">
+          <img src="{{ f.image }}" alt="{{ f.image_alt | escape }}">
+        </figure>
+        {% endif %}
+      </article>
+    </section>
+    {% endif %}
+  </div>
+</div>
