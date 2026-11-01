@@ -10,4 +10,4 @@ I am an applied economist working at the intersection of labor economics, health
 
 I am a Postdoctoral Researcher in the Department of Economics at the University of Copenhagen, based at the [Center for Economic Behavior and Inequality (CEBI)](https://www.econ.ku.dk/cebi), where I am a member of the new Health Economics and Aging Lab (HEAL).
 
-I received my PhD in Economics from the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics), where I was advised by [Andrea Ichino](http://www.andreaichino.it/) and [Sule Alan](https://sulealan.com/).
+I received my PhD in Economics from the [European University Institute](https://www.eui.eu/en/academic-units/department-of-economics) in 2026.
